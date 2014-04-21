@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var CatfactsServer = require('../lib/catfacts/server');
+
+(new CatfactsServer())
+	.initializeRoutes()
+	.listen();
+

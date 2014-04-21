@@ -1,0 +1,15 @@
+{
+  "name": "catfacts-api",
+  "version": "0.1.0",
+  "author": "Daniel Bostwick <dbostwick@cantinaconsulting.com>",
+  "description": "Catfacts, now in API form",
+  "repository": {},
+  "scripts": {
+    "run": "./bin/server"
+  },
+  "dependencies": {
+    "express": "4.x",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {}
+}
